@@ -2,9 +2,15 @@ using Awen.Core.Abstracts;
 
 namespace Awen.Core.Entities;
 
-public class WfAction (WfActivity wfActivity) : IAwenEntity
+public class WfAction (WfActivity wfActivityFrom, WfActivity wfActivityTo, WfActionType? wfActionType = null) : IAwenEntity
 {
     public Guid Id { get; set; } = Guid.NewGuid();
 
-    public WfActivity WfActivity { get; set; } = wfActivity;
+    public WfActionType? Type { get; set; } = wfActionType;
+    
+    public WfActivity From { get; set; } = wfActivityFrom;
+    
+    public WfActivity To { get; set; } = wfActivityTo;
+
+    public object? Properties { get; set; }
 }
