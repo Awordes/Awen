@@ -1,8 +1,8 @@
 using Awen.Core.Abstracts;
 
-namespace Awen.Core.Entities;
+namespace Awen.Core.WorkflowDefinition;
 
-public class WfActionType(string name, string? title = null) : IAwenEntity
+internal class WfActionType(string name, string? title = null) : IAwenEntity
 {
     public Guid Id { get; set; } = Guid.NewGuid();
 

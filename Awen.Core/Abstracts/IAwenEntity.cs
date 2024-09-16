@@ -1,6 +1,6 @@
 namespace Awen.Core.Abstracts;
 
-public interface IAwenEntity
+internal interface IAwenEntity
 {
     public Guid Id { get; set; }
 }
