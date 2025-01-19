@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Awen.Dispatcher", "src\Awen
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Awen.DependencyInjection", "src\Awen.DependencyInjection\Awen.DependencyInjection.csproj", "{5907F551-C244-44B1-894B-59FB5DB4A873}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Awen.Repository.InMemory", "src\Awen.Repository.InMemory\Awen.Repository.InMemory.csproj", "{C3F7329E-A275-4358-B3BD-FFDC87947260}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{5907F551-C244-44B1-894B-59FB5DB4A873}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5907F551-C244-44B1-894B-59FB5DB4A873}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5907F551-C244-44B1-894B-59FB5DB4A873}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3F7329E-A275-4358-B3BD-FFDC87947260}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3F7329E-A275-4358-B3BD-FFDC87947260}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3F7329E-A275-4358-B3BD-FFDC87947260}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3F7329E-A275-4358-B3BD-FFDC87947260}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
