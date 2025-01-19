@@ -1,9 +1,8 @@
-using Awen.Core.Abstracts;
 using Awen.Core.WorkflowDefinition;
 
 namespace Awen.Core.WorkflowDynamic;
 
-internal class WfEntityState(Guid entityId, WfActivity? currentWfActivity = null) : IAwenEntity
+public class WfEntityState(Guid entityId, WfActivity? currentWfActivity = null)
 {
     public Guid Id { get; set; } = Guid.NewGuid();
 

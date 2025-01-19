@@ -1,6 +1,6 @@
 namespace Awen.Core.WorkflowDefinition;
 
-internal enum WfActivityType
+public enum WfActivityType
 {
     Init,
     Regular,

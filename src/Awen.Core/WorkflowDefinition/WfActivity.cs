@@ -1,8 +1,6 @@
-using Awen.Core.Abstracts;
-
 namespace Awen.Core.WorkflowDefinition;
 
-internal class WfActivity(Workflow workflow, WfActivityType wfActivityType, WfActivityState? state = null) : IAwenEntity
+public class WfActivity(Workflow workflow, WfActivityType wfActivityType, WfActivityState? state = null)
 {
     public Guid Id { get; set; } = Guid.NewGuid();
 

@@ -1,9 +1,6 @@
-using Awen.Core.Abstracts;
-
 namespace Awen.Core.WorkflowDefinition;
 
-
-internal class Workflow : IAwenEntity
+public class Workflow
 {
     public Guid Id { get; set; } = Guid.NewGuid();
 
